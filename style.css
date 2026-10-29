@@ -22,8 +22,8 @@ body {
   height: 100vh;
   color: white;
   background-image:
-    linear-gradient(rgba(8, 84, 130, 0.8), rgba(4, 70, 115, 0.8)),
-    url("img/shop2.jpg");
+    linear-gradient(rgb(68, 188, 248), rgba(255, 255, 255, 0.8)),
+url("https://t4.ftcdn.net/jpg/03/80/34/41/360_F_380344118_9GdQjP68EjeUq56SbmErjyzchO02j2xj.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -81,9 +81,9 @@ body {
 .card-btn {
   height: 4rem;
   padding: 0 1.6rem;
-  background-color: #605dff;
+  background-color: rgb(41, 230, 41);
   color: #edf0ff;
-  border: 1px solid #5250e0;
+  border: 2px solid #ffffff;
   border-radius: 0.4rem;
   font-size: 1.4rem;
   font-weight: 600px;
