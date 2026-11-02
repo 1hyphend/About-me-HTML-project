@@ -1,9 +1,11 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Hungarian&family=Redaction+70:ital,wght@0,400;0,700;1,400&display=swap');
+
 
 html,
 body,
 * {
-  font-size: 10px;
+  font-size: 7px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@ body,
 body {
   background-color: #1d232a;
   font-family: ui-sans-serif, system-ui, sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
 }
 .hero {
@@ -33,7 +35,7 @@ url("https://t4.ftcdn.net/jpg/03/80/34/41/360_F_380344118_9GdQjP68EjeUq56SbmErjy
   padding: 2rem;
 }
 .hero h1 {
-  font-size: 7rem;
+  font-size: 8rem;
   margin-bottom: 2rem;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
@@ -59,8 +61,8 @@ url("https://t4.ftcdn.net/jpg/03/80/34/41/360_F_380344118_9GdQjP68EjeUq56SbmErjy
   color: #ffffff;
   width: 30rem;
   height: 55rem;
-  /* margin is space between elements */
-/*   margin: 2.5rem 5rem;
+/*   margin is space between elements; */
+  margin: 2.5rem 5rem;
   border-radius: 0.8rem;
   align-items: center;
 }
@@ -106,17 +108,41 @@ body,
 .box{
   height: 30rem;
   font-size: 1.5rem;
-  margin: 10;
+  margin: 1;
 
 }
   .hero {
   display: flex;
-  width: 90vw;
+  width: 100vw;
   flex-wrap:wrap;
-  margin: 3rem auto;
+  margin: 0rem auto;
 justify-content: space-between;
 gap:10%;
 
   color: white;
 
 }
+
+
+
+
+
+
+/* You will be creating a simple “about me” website. You site will contain the
+following. You must ensure your repository is public so we can host this.
+HTML Checklist
+-A header tag and sub header
+-A hero landing
+-A short paragraph
+-A Navigation bar(save this for last)
+-At least one external link
+-One Button
+-At least one ordered and one unordered list
+-At least One meme/image that’s school appropriate
+CSS Checklist
+-Custom font
+-use of margin/padding
+-utilizing standard measurements for units (REM, VH/VW when
+appropriate)
+-utilize classes, ids and appropriate selectors in CSS
+-Appropriate Block Element Modifier naming convention */
